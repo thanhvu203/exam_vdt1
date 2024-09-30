@@ -1,0 +1,23 @@
+name: exam_vdt
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2  # Thêm package để thực hiện các yêu cầu HTTP
+  provider: ^6.0.0  # Thêm package để quản lý trạng thái
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
